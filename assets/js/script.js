@@ -47,7 +47,7 @@ teamMembers.forEach((member) => {
 <div class="card mb-3">
   <div class="row bg-dark text-white">
     <div class="col-md-4 p-0">
-        <img src="./assets/${member.img}" class="card-img" alt="${member.name}">
+        <img src="./assets/${member.img}" class="card-img img-fluid h-100 object-fit-cover" alt="${member.name}">
       </div>
       <div class="col-md-8">
         <p class="card-name m-0 fw-bold">${member.name}</p>
